@@ -1,0 +1,15 @@
+body {
+	font-family: sans-serif;
+}
+
+.logo {
+	text-align: center;
+}
+
+.footer {
+	position: absolute;
+	margin-bottom: 4px;
+	width: 100%;
+	font-size: 10px;
+	text-align: center;
+}
