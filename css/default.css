@@ -1,9 +1,17 @@
 body {
 	font-family: sans-serif;
+	text-align: center;
 }
 
 .logo {
-	text-align: center;
+	font-size: 128px;
+	line-height: 80px;
+	font-weight: bold;
+}
+
+.logo p {
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .footer {
@@ -12,4 +20,11 @@ body {
 	width: 100%;
 	font-size: 10px;
 	text-align: center;
+}
+
+.button-a {
+	font-weight: bold;
+	border: 2px solid red;
+	padding: 8px;
+	margin: 4%;
 }
