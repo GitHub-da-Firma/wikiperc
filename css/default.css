@@ -1,12 +1,18 @@
 body {
 	font-family: sans-serif;
 	text-align: center;
+	color: black;
 }
 
 .logo {
 	font-size: 128px;
 	line-height: 80px;
 	font-weight: bold;
+}
+
+.logo-h2 {
+	font-size: 48px;
+	margin-bottom: 20px;	
 }
 
 .logo p {
@@ -27,4 +33,19 @@ body {
 	border: 2px solid red;
 	padding: 8px;
 	margin: 4%;
+}
+
+.content-box {
+	border: 1px solid gray;
+	padding: 16px;
+	text-align: justify;
+}
+
+.title-h3 {
+	font-size: 32px;
+	text-indent: 8px;
+}
+
+.text {
+	text-indent: 32px;
 }
