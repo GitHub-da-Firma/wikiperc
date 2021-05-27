@@ -10,22 +10,14 @@ body {
 	font-weight: bold;
 }
 
-.logo-h2 {
-	font-size: 48px;
-	margin-bottom: 20px;	
-}
-
 .logo p {
 	font-size: 16px;
 	font-weight: bold;
 }
 
-.footer {
-	position: absolute;
-	margin-bottom: 4px;
-	width: 100%;
-	font-size: 10px;
-	text-align: center;
+.profile-select {
+	line-height: 48px;
+	font-size: 20px;
 }
 
 .button-a {
@@ -33,6 +25,11 @@ body {
 	border: 2px solid red;
 	padding: 8px;
 	margin: 4%;
+}
+
+.page-title {
+	font-size: 48px;
+	margin-bottom: 20px;	
 }
 
 .content-box {
@@ -48,4 +45,12 @@ body {
 
 .text {
 	text-indent: 32px;
+}
+
+.footer {
+	position: absolute;
+	margin-bottom: 4px;
+	width: 100%;
+	font-size: 10px;
+	text-align: center;
 }
