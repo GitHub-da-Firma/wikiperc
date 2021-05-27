@@ -4,27 +4,34 @@ body {
 	color: black;
 }
 
-.logo {
+.hidden-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.front-logo h1 {
 	font-size: 128px;
-	line-height: 80px;
+	line-height: 108px;
 	font-weight: bold;
 }
 
-.logo p {
+.front-logo p {
 	font-size: 16px;
 	font-weight: bold;
 }
 
 .profile-select {
-	line-height: 48px;
-	font-size: 20px;
+	font-size: 32px;
 }
 
-.button-a {
+.profile-button {
+	font-size: 24px;
 	font-weight: bold;
 	border: 2px solid red;
 	padding: 8px;
 	margin: 4%;
+	text-decoration: none;
+	color: inherit;
 }
 
 .page-title {
