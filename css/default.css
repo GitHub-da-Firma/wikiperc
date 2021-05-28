@@ -66,6 +66,7 @@ body {
 }
 
 .footer {
+	float: bottom;
 	position: absolute;
 	margin-bottom: 4px;
 	width: 100%;
