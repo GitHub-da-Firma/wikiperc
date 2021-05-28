@@ -9,7 +9,7 @@ body {
   	overflow: hidden;
 }
 
-p {
+.indexOverlay {
 	color: white;
 	padding: 5px;
 }
