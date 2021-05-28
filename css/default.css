@@ -1,11 +1,11 @@
 body {
 	font-family: sans-serif;
 	text-align: center;
-	position: relative;
-  	height: 75vh;
-  	min-height: 25rem;
-  	width: 100%;
-  	overflow: hidden;
+}
+
+.indexOverlay {
+	color: white;
+	padding: 5px;
 }
 
 .small-logo {
@@ -75,6 +75,7 @@ body {
 }
 
 .footer {
+	float: bottom;
 	position: absolute;
 	margin-bottom: 4px;
 	width: 100%;
