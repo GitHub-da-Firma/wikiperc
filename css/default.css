@@ -21,14 +21,14 @@ body {
 
 .front-logo h1 {
 	font-size: 128px;
-	line-height: 108px;
-	font-weight: bold;
-	padding: 16px; 
+	line-height: 112px;
+	font-weight: bold; 
 }
 
 .front-logo p {
 	font-size: 16px;
 	font-weight: bold;
+	padding-bottom: 32px;
 }
 
 .profile-select {
@@ -80,7 +80,7 @@ body {
 .footer {
 	float: bottom;
 	position: absolute;
-	margin-bottom: 4px;
+	margin-bottom: 0px;
 	width: 100%;
 	font-size: 10px;
 	text-align: center;
