@@ -23,6 +23,7 @@ body {
 	font-size: 128px;
 	line-height: 108px;
 	font-weight: bold;
+	padding: 16px; 
 }
 
 .front-logo p {
@@ -32,6 +33,8 @@ body {
 
 .profile-select {
 	font-size: 32px;
+	background-color: rgba(0, 0, 0, 0.651);
+	padding: 32px;
 }
 
 .profile-button {
