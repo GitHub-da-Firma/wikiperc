@@ -1,11 +1,17 @@
+/* Estilos gerais
+*/
+
 body {
 	font-family: sans-serif;
 	text-align: center;
 }
 
-.indexOverlay {
-	color: white;
-	padding: 5px;
+.footer {
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
 }
 
 .small-logo {
@@ -19,8 +25,16 @@ body {
 	color: inherit;
 }
 
-.profile-select .hidden-link {
-	font-weight: bold;
+/* Estilos da página inicial
+*/
+
+.videoFront {
+	position: fixed;
+  	right: 0;
+  	bottom: 0;
+  	min-width: 100%;
+  	min-height: 100%;
+  	z-index: -1;
 }
 
 .front-logo h1 {
@@ -33,12 +47,18 @@ body {
 	font-size: 16px;
 	font-weight: bold;
 	padding-bottom: 32px;
+	color: white;
 }
 
 .profile-select {
 	font-size: 32px;
 	background-color: rgba(0, 0, 0, 0.651);
 	padding: 32px;
+	color: white;
+}
+
+.profile-select .hidden-link {
+	font-weight: bold;
 }
 
 .profile-button {
@@ -51,6 +71,9 @@ body {
 	color: inherit;
 }
 
+/* Estilos das páginas internas
+*/
+
 .page-title {
 	font-size: 48px;
 	margin-bottom: 20px;	
@@ -60,11 +83,6 @@ body {
 	border: 1px solid gray;
 	padding: 16px;
 	text-align: justify;
-}
-
-.title-h3 {
-	font-size: 32px;
-	text-indent: 8px;
 }
 
 .content-h {
@@ -81,23 +99,11 @@ body {
 	width: 75%;
 }
 
+.title-h3 {
+	font-size: 32px;
+	text-indent: 8px;
+}
+
 .text {
 	text-indent: 32px;
-}
-
-.footer {
-	position: relative;
-	bottom: 0px;
-	width: 100%;
-	font-size: 12px;
-	text-align: center;
-}
-
-.videoFront {
-	position: fixed;
-  	right: 0;
-  	bottom: 0;
-  	min-width: 100%;
-  	min-height: 100%;
-  	z-index: -1;
 }
