@@ -19,6 +19,10 @@ body {
 	color: inherit;
 }
 
+.profile-select .hidden-link {
+	font-weight: bold;
+}
+
 .front-logo h1 {
 	font-size: 128px;
 	line-height: 112px;
