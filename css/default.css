@@ -40,6 +40,10 @@ body {
   	z-index: -1;
 }
 
+.front-logo {
+	margin: 48px;
+}
+
 .front-logo h1 {
 	font-size: 128px;
 	line-height: 112px;
@@ -55,9 +59,10 @@ body {
 
 .profile-select {
 	font-size: 32px;
-	background-color: rgba(0, 0, 0, 0.651);
+	background-color: rgba(0, 0, 0, 0.75);
 	padding: 32px;
 	color: white;
+	margin: 64px;
 }
 
 .profile-select .hidden-link {
@@ -79,7 +84,7 @@ body {
 
 .page-title {
 	font-size: 48px;
-	margin-bottom: 20px;	
+	margin-bottom: 48px;
 }
 
 .content-box {
@@ -93,6 +98,7 @@ body {
 	text-align: center;
 	padding: 16px;
 	padding-top: 32px;
+	margin: 8px;
 }
 
 .drive-content {
