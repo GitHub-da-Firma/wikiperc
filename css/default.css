@@ -91,6 +91,9 @@ body {
 	border: 1px solid gray;
 	padding: 16px;
 	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
 }
 
 .content-h {
@@ -106,7 +109,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	height: 512px;
-	width: 60%;
+	width: 100%;
 }
 
 .title-h3 {
