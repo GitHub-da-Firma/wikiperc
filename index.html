@@ -10,9 +10,13 @@
   	</head>
 
   	<body class="h-100">
-		  <script>$("#page-header").load("header.html");</script>
-		  <header id="page-header top"></header>
-			
+		  <script>
+			  $(document).ready(function() {
+				  $('header').loadHTML('header.html');
+				  $('header').appendHTML('header.html');
+			  });
+		  </script>
+
 			<div class="p-4 m-4">
 
 				<video autoplay muted loop class="videoFront">
